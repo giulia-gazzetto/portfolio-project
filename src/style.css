@@ -62,8 +62,7 @@ h2 {
 
 .project-section {
   background-color: var(--secondary-color);
-  margin: 0;
-  padding: 100px;
+  padding: 80px;
 }
 
 .project-section .special-button {
@@ -114,8 +113,13 @@ h2 {
 }
 
 @media (max-width: 768px) {
+  .hero {
+    padding: 80px 20px;
+  }
+
   .project-section {
     text-align: center !important;
+    padding: 20px;
   }
 
   .hero h1 {
@@ -131,7 +135,7 @@ h2 {
   }
 
   .project-section special-button {
-    padding: 10px;
+    padding: 30px 15px;
     font-weight: lighter !important;
   }
 }
