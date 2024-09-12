@@ -112,7 +112,32 @@ h2 {
   background-size: cover;
 }
 
+/* about page */
+.top-bar {
+  padding: 50px 25px;
+}
+
+.section-title {
+  font-family: var(--heading-font-family);
+}
+.about-box h3 {
+  font-size: medium;
+  font-weight: bolder;
+}
+
+.about-buttons {
+  margin-top: 30px;
+}
+/* contact page */
+
+/* project page */
+
 @media (max-width: 768px) {
+  p {
+    font-size: 15px !important;
+  }
+
+  /* homepage */
   .hero {
     padding: 80px 20px;
   }
@@ -125,20 +150,31 @@ h2 {
   .hero h1 {
     font-size: 50px !important;
   }
+
   .light-box {
     background-color: #fafaf5ea;
     padding: 20px 10px 30px;
-  }
-
-  p {
-    font-size: 15px !important;
   }
 
   .project-section special-button {
     padding: 30px 15px;
     font-weight: lighter !important;
   }
+
+  /* about page */
+
+  /* contact page */
+
+  /* project page */
 }
 
 @media (max-width: 576px) {
+  .about-box h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+  .top-bar {
+    padding: 20px 25px;
+  }
 }
