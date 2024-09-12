@@ -131,6 +131,36 @@ h2 {
 /* contact page */
 
 /* project page */
+.project-page {
+  padding: 0 30px;
+}
+.project-box-page {
+  background-color: var(--secondary-color);
+  border-radius: 24px;
+  margin: 10px !important;
+  padding: 0 !important;
+}
+.project-pic {
+  border-radius: 24px 24px 0 0;
+  max-width: 100px !important;
+}
+.project-description {
+  padding: 25px;
+}
+
+.project-box-page h3 {
+  font-weight: bold;
+  padding: 0 !important;
+  font-size: 18px;
+}
+.project-box-page p {
+  color: grey;
+}
+.project-box-page a {
+  font-family: var(--heading-font-family);
+  color: var(--primary-color);
+  font-weight: bold;
+}
 
 @media (max-width: 768px) {
   p {
@@ -175,6 +205,6 @@ h2 {
   }
 
   .top-bar {
-    padding: 20px 25px;
+    padding: 50px 25px 20px;
   }
 }
