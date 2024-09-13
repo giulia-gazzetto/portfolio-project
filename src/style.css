@@ -128,7 +128,21 @@ h2 {
 .about-buttons {
   margin-top: 30px;
 }
+
 /* contact page */
+
+.contact-page {
+  padding: 0 50px;
+}
+
+.contact-page h3 {
+  font-size: 20px !important;
+  font-weight: bold;
+}
+.contact-box {
+  background-color: var(--primary-color);
+  padding: 20px !important;
+}
 
 /* project page */
 .project-page {
@@ -195,6 +209,10 @@ h2 {
 
   /* contact page */
 
+  .contact-page {
+    padding: 0 80px !important;
+  }
+
   /* project page */
   .project-box-page {
     margin-bottom: 15px;
@@ -209,5 +227,10 @@ h2 {
 
   .top-bar {
     padding: 50px 25px 20px;
+  }
+
+  .contact-page {
+    text-align: center !important;
+    padding: 10px 20px;
   }
 }
