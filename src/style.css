@@ -173,6 +173,10 @@ nav .special-test {
   font-size: 20px;
 }
 
+.footer-space {
+  padding-top: 50px !important;
+}
+
 /* about page */
 .top-bar {
   padding: 100px 25px;
