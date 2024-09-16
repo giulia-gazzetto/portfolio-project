@@ -17,12 +17,57 @@ h2 {
   font-weight: 700 !important;
 }
 
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 35px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+nav li .active {
+  font-weight: bolder;
+  font-style: italic;
+}
+
+nav ul {
+  padding: 0 !important;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  transition: all 150ms ease-in-out;
+}
+
+nav a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+nav .special-test {
+  font-weight: bolder;
+  color: white;
+  font-size: 20px;
+}
 .hero {
   text-align: center;
   padding: 160px 20px;
   font-family: var(--default-font-family);
 }
 
+.nav-bg {
+  margin: 0 auto !important;
+  background-color: var(--primary-color);
+  padding: 15px 15px 0;
+}
+.nav-bg container {
+  max-width: 600px;
+}
+
+.logo-small {
+  display: none;
+}
 .hero h1 {
   font-size: 70px !important;
   font-family: var(--heading-font-family);
@@ -57,7 +102,8 @@ h2 {
 .special-button:hover {
   background-color: var(--secondary-color);
   border: 2px solid var(--primary-color);
-  color: black;
+  color: var(--primary-color);
+  transition: all 150ms ease-in-out;
 }
 
 .project-section {
@@ -114,7 +160,7 @@ h2 {
 
 /* about page */
 .top-bar {
-  padding: 50px 25px;
+  padding: 100px 25px;
 }
 
 .section-title {
@@ -183,7 +229,7 @@ h2 {
 
   /* homepage */
   .hero {
-    padding: 80px 20px;
+    padding: 120px 20px 80px !important;
   }
 
   .project-section {
@@ -205,10 +251,6 @@ h2 {
     font-weight: lighter !important;
   }
 
-  /* about page */
-
-  /* contact page */
-
   .contact-page {
     padding: 0 80px !important;
   }
@@ -220,13 +262,32 @@ h2 {
 }
 
 @media (max-width: 576px) {
+  nav {
+    display: block !important;
+    margin: 0 auto;
+  }
+
+  .hero h2 {
+    font-size: 18px !important;
+  }
+
+  .hero {
+    padding: 160px 20px 100px !important;
+  }
+
+  .logo-big {
+    display: none;
+  }
+  .logo-small {
+    display: block;
+  }
   .about-box h3 {
     font-size: 20px;
     margin-bottom: 15px;
   }
 
   .top-bar {
-    padding: 50px 25px 20px;
+    padding: 90px 25px 20px;
   }
 
   .contact-page {
