@@ -44,6 +44,15 @@ nav a:hover {
   color: white;
   text-decoration: underline;
 }
+.black-link {
+  color: black;
+  text-decoration: none;
+  transition: all 150ms ease-in-out;
+}
+.black-link:hover {
+  color: black;
+  text-decoration: underline;
+}
 
 nav .special-test {
   font-weight: bolder;
@@ -156,6 +165,12 @@ nav .special-test {
     url(poem.jpg) 50% 50%;
 
   background-size: cover;
+}
+
+.social-media-link {
+  color: #dbbb1a;
+  margin: 10px;
+  font-size: 20px;
 }
 
 /* about page */
@@ -285,7 +300,9 @@ nav .special-test {
     font-size: 20px;
     margin-bottom: 15px;
   }
-
+  footer h1 {
+    font-size: 25px !important;
+  }
   .top-bar {
     padding: 90px 25px 20px;
   }
