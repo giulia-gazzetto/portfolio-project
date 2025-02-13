@@ -1,8 +1,9 @@
 :root {
-  --primary-color: #dbbb1a;
+  --primary-color: #955dc1;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppin", sans-serif;
-  --secondary-color: #fafaf5;
+  --secondary-color: #dec5de;
+  --accent-color: #dbbb1a;
 }
 
 body {
@@ -28,6 +29,7 @@ nav li {
 nav li .active {
   font-weight: bolder;
   font-style: italic;
+  color: var(--accent-color);
 }
 
 nav ul {
@@ -100,6 +102,7 @@ nav .special-test {
 
 .special-button {
   background-color: var(--primary-color);
+  border: 2px solid var(--primary-color);
   padding: 15px 20px;
   border-radius: 8px;
   color: white;
@@ -110,8 +113,8 @@ nav .special-test {
 
 .special-button:hover {
   background-color: var(--secondary-color);
-  border: 2px solid var(--primary-color);
-  color: var(--primary-color);
+  border-color: var(--secondary-color);
+  color: white;
   transition: all 150ms ease-in-out;
 }
 
