@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #955dc1;
+  --primary-color: #89a0e4;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppin", sans-serif;
   --secondary-color: #dec5de;
@@ -29,7 +29,6 @@ nav li {
 nav li .active {
   font-weight: bolder;
   font-style: italic;
-  color: var(--accent-color);
 }
 
 nav ul {
@@ -38,14 +37,18 @@ nav ul {
 
 nav a {
   text-decoration: none;
-  color: black;
+  color: white;
   transition: all 150ms ease-in-out;
 }
 
 nav a:hover {
-  color: white;
-  text-decoration: underline;
+  color: var(--accent-color);
 }
+
+nav .logo-big:hover {
+  color: white;
+}
+
 .black-link {
   color: black;
   text-decoration: none;
@@ -63,7 +66,7 @@ nav .special-test {
 }
 .hero {
   text-align: center;
-  padding: 160px 20px;
+  padding: 200px 20px 160px;
   font-family: var(--default-font-family);
 }
 
@@ -90,6 +93,7 @@ nav .special-test {
   font-style: normal;
   color: white;
   background-color: var(--primary-color);
+  padding: 0 10px;
 }
 
 .coloured-text {
@@ -139,27 +143,27 @@ nav .special-test {
   border-radius: 12px;
 }
 
-.taco {
+.project-3 {
   background: linear-gradient(
       0deg,
       rgba(217, 217, 217, 0.3),
       rgba(217, 217, 217, 0.3)
     ),
-    url(taco.jpg) 50% 50%;
+    url(ticinoproject.jpg) 50% 50%;
   background-size: cover;
 }
 
-.clock {
+.project-2 {
   background: linear-gradient(
       0deg,
       rgba(217, 217, 217, 0.3),
       rgba(217, 217, 217, 0.3)
     ),
-    url(clock.jpg) 50% 50%;
+    url(dictionaryproject.jpg) 50% 50%;
   background-size: cover;
 }
 
-.poem {
+.project-1 {
   background: linear-gradient(
       0deg,
       rgba(217, 217, 217, 0.3),
@@ -221,10 +225,14 @@ nav .special-test {
   border-radius: 24px;
   border: 10px solid white;
   padding: 0 !important;
+  transition: transform 0.3s ease-in-out;
+}
+
+.project-box-page:hover {
+  transform: translateY(-5px);
 }
 .project-pic {
   border-radius: 24px 24px 0 0;
-  max-width: 100px !important;
 }
 .project-description {
   padding: 25px;
@@ -232,16 +240,24 @@ nav .special-test {
 
 .project-box-page h3 {
   font-weight: bold;
-  padding: 0 !important;
+  margin: 0 !important;
   font-size: 18px;
 }
 .project-box-page p {
-  color: grey;
+  color: rgb(109, 106, 106);
 }
 .project-box-page a {
   font-family: var(--heading-font-family);
   color: var(--primary-color);
   font-weight: bold;
+}
+
+.badge {
+  background: var(--accent-color);
+  color: white;
+  padding: 8px 10px;
+  margin-left: 5px;
+  border-radius: 5px;
 }
 
 @media (max-width: 768px) {
