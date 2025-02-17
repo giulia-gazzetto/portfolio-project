@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #89a0e4;
+  --primary-color: #542c8e;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppin", sans-serif;
   --secondary-color: #dec5de;
@@ -28,7 +28,6 @@ nav li {
 
 nav li .active {
   font-weight: bolder;
-  font-style: italic;
 }
 
 nav ul {
@@ -333,5 +332,9 @@ nav .special-test {
   .contact-page {
     text-align: center !important;
     padding: 10px 20px;
+  }
+
+  .badge {
+    margin: 10px 5px 5px 0 !important;
   }
 }
