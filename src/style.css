@@ -148,7 +148,7 @@ nav .special-test {
       rgba(217, 217, 217, 0.3),
       rgba(217, 217, 217, 0.3)
     ),
-    url(ticinoproject.jpg) 50% 50%;
+    url(/img/ticinoproject.jpg) 50% 50%;
   background-size: cover;
 }
 
@@ -158,7 +158,7 @@ nav .special-test {
       rgba(217, 217, 217, 0.3),
       rgba(217, 217, 217, 0.3)
     ),
-    url(dictionaryproject.jpg) 50% 50%;
+    url(/img/dictionaryproject.jpg) 50% 50%;
   background-size: cover;
 }
 
@@ -168,7 +168,7 @@ nav .special-test {
       rgba(217, 217, 217, 0.3),
       rgba(217, 217, 217, 0.3)
     ),
-    url(poem.jpg) 50% 50%;
+    url(/img/poem.jpg) 50% 50%;
 
   background-size: cover;
 }

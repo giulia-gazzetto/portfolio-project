@@ -44,8 +44,23 @@
           <ul>
             <li><a href="/" class="active" title="Homepage">Homepage</a></li>
             <li><a href="/about.html" title="About Giulia">About</a></li>
-            <li><a href="/project.html" title="Giulia's work">Progetti</a></li>
-            <li><a href="/contact.html" title="Contact Giulia">Contatti</a></li>
+            <li>
+              <a
+                href="/project.html"
+                title="Giulia's work"
+                data-translate="navworks"
+                >Progetti</a
+              >
+            </li>
+            <li>
+              <a
+                href="/contact.html"
+                title="Contact Giulia"
+                data-translate="navcontacts"
+                >Contatti</a
+              >
+            </li>
+            <li><a href="#" id="lang-btn">🇬🇧EN</a></li>
           </ul>
         </nav>
       </div>
@@ -58,6 +73,7 @@
         <a
           href="/contact.html"
           class="special-button mt-5 link-underline link-underline-opacity-0 link-underline-opacity-0-hover"
+          data-translate="contactme"
           >Contattami</a
         >
       </div>
@@ -69,7 +85,7 @@
           <div class="col-lg-8 col-md-7 d-none d-md-block"></div>
           <div class="col-lg-4 col-md-5 col-sm-12 light-box">
             <h2 class="special-test text">Poem generator</h2>
-            <p>
+            <p data-translate="introprojectone">
               Un generatore di poesie interattivo che crea versi unici in base
               alle parole chiave inserite dall’utente.
             </p>
@@ -77,6 +93,7 @@
               <a
                 href="/project.html"
                 class="special-button link-underline link-underline-opacity-0 link-underline-opacity-0-hover"
+                data-translate="gotoproject"
                 >Vai ai progetti</a
               >
             </div>
@@ -88,7 +105,7 @@
         <div class="row project-box project-2" title="project-1">
           <div class="col-lg-4 col-md-5 col-sm-12 light-box">
             <h2 class="special-test text">Dictionary</h2>
-            <p>
+            <p data-translate="introprojecttwo">
               Un’applicazione per cercare definizioni di parole, pronuncia e
               informazioni correlate utilizzando un’API esterna.
             </p>
@@ -96,6 +113,7 @@
               <a
                 href="/project.html"
                 class="special-button link-underline link-underline-opacity-0 link-underline-opacity-0-hover"
+                data-translate="gotoproject"
                 >Vai ai progetti</a
               >
             </div>
@@ -109,7 +127,7 @@
           <div class="col-lg-8 col-md-7 d-md-block"></div>
           <div class="col-lg-4 col-md-5 col-sm-12 light-box">
             <h2 class="special-test text">Ticino Landpage</h2>
-            <p>
+            <p data-translate="introprojectthree">
               Un sito informativo dedicato al turismo in Ticino, con
               suggerimenti su luoghi da visitare e attività da fare.
             </p>
@@ -117,6 +135,7 @@
               <a
                 href="/project.html"
                 class="special-button link-underline link-underline-opacity-0 link-underline-opacity-0-hover"
+                data-translate="gotoproject"
                 >Vai ai progetti</a
               >
             </div>
@@ -128,7 +147,10 @@
       <div class="container">
         <h1 class="special-test">Work inquiry</h1>
         <p>
-          <a href="mailto:giu-gazzetto@gmail.com" class="black-link"
+          <a
+            href="mailto:giu-gazzetto@gmail.com"
+            class="black-link"
+            data-translate="footer"
             >Lavoriamo insieme</a
           >
         </p>
@@ -156,5 +178,6 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <script type="module" src="src/index.js"></script>
   </body>
 </html>
