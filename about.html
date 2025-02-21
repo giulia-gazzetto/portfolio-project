@@ -57,6 +57,7 @@
                 >Contatti</a
               >
             </li>
+            <li><a href="#" id="lang-btn">🇬🇧EN</a></li>
           </ul>
         </nav>
       </div>
@@ -68,34 +69,30 @@
     <div class="container about-box">
       <div class="row m-0">
         <div class="col-md-2 col-sm-12">
-          <h3 class="text-uppercase">Su di me</h3>
+          <h3 class="text-uppercase" data-translate="aboutme">Su di me</h3>
         </div>
         <div class="col-md-10 col sm-12">
-          <p>
-            Sono <strong>Giulia</strong>, una
-            <strong>Junior Front-End Developer</strong> con un background in
+          <p data-translate="aboutmetextone">
+            Sono Giulia, una Junior Front-End Developer con un background in
             graphic design, appassionata di design, logica e problem-solving.
             Ciò che mi affascina di più nello sviluppo web è la possibilità di
             partire da zero e trasformare un’idea in qualcosa di concreto,
             funzionale e visivamente accattivante. Amo esplorare diversi
             approcci per trovare il giusto equilibrio tra estetica e usabilità.
           </p>
-
-          <p>
+          <p data-translate="aboutmetexttwo">
             La mia visione è quella di combinare bellezza e funzionalità creando
             soluzioni digitali che non siano solo accattivanti, ma anche
             intuitive e accessibili a tutti.
           </p>
-
-          <p>
-            Lavoro con tecnologie come
-            <strong>React e JavaScript</strong>, per sviluppare interfacce
-            fluide e responsive su ogni dispositivo. Sono particolarmente
-            interessata al UI/UX design e sempre alla ricerca di nuovi strumenti
-            e metodologie per migliorare la qualità dei miei progetti.
+          <p data-translate="aboutmetextthree">
+            Lavoro con tecnologie come React e JavaScript, per sviluppare
+            interfacce fluide e responsive su ogni dispositivo. Sono
+            particolarmente interessata al UI/UX design e sempre alla ricerca di
+            nuovi strumenti e metodologie per migliorare la qualità dei miei
+            progetti.
           </p>
-
-          <p>
+          <p data-translate="aboutmetextfour">
             Quando non scrivo codice, mi piace cucire e scrivere, perché credo
             che la creatività sia alla base di ogni forma di progettazione,
             anche nello sviluppo web!
@@ -110,21 +107,26 @@
         </div>
         <div class="col-md-10 col sm-12">
           <p>
-            <strong>Linguaggi</strong>: HTML5, CSS3, JavaScript (ES6+) <br />
-            <strong> Framework & Librerie:</strong> React.js, Bootstrap
-            Controllo di Versione: Git, GitHub/GitLab<br />
+            HTML5, CSS3, JavaScript (ES6+) <br />
+            React.js, Bootstrap Git, GitHub/GitLab<br />
 
-            <strong>Gestione di Build & Pacchetti:</strong> npm <br />Sviluppo
-            Responsive: Garantire esperienze fluide su tutti i dispositivi
+            npm <br />
+            Responsive design
             <br />
-            <strong>Competenze Aggiuntive: </strong>Debugging, problem-solving e
-            conoscenze base di SEO
+            <span data-translate="skillone"
+              >Problem-solving e conoscenze base di SEO</span
+            >
             <br />
-            <strong>API & Gestione Dati: </strong>Integrazione base di API con
-            Fetch API (creazione di app con dati esterni, come app meteo e
-            dizionari). <br /><br />
-            <strong> Attualmente in fase di apprendimento:</strong> RESTful APIs
-            e Axios (gestione di richieste e risposte JSON).
+            <span data-translate="skilltwo"
+              >Integrazione base di API con Fetch API (creazione di app con dati
+              esterni, come app meteo e dizionari). </span
+            ><br /><br />
+            <strong data-translate="learning"
+              >Attualmente in fase di apprendimento:</strong
+            ><span data-translate="skillthree"
+              >RESTful APIs e Axios (gestione di richieste e risposte
+              JSON).</span
+            >
           </p>
         </div>
       </div>
@@ -134,18 +136,21 @@
         href="/contact.html"
         class="special-button link-underline link-underline-opacity-0 link-underline-opacity-0-hover"
         id="contactme"
+        data-translate="contactme"
         >Contattami</a
       >
       <a
         href="/files/cv-giulia-web.pdf"
         target="_blank"
         class="special-button link-underline link-underline-opacity-0 link-underline-opacity-0-hover"
+        data-translate="cvbtn"
         >Vai al CV</a
       >
 
       <a
         href="/project.html"
         class="special-button link-underline link-underline-opacity-0 link-underline-opacity-0-hover"
+        data-translate="worksbtn"
         >I miei lavori</a
       >
     </div>
@@ -153,7 +158,10 @@
       <div class="container">
         <h1 class="special-test">Work inquiry</h1>
         <p>
-          <a href="mailto:giu-gazzetto@gmail.com" class="black-link"
+          <a
+            href="mailto:giu-gazzetto@gmail.com"
+            class="black-link"
+            data-translate="footer"
             >Lavoriamo insieme</a
           >
         </p>
@@ -180,5 +188,6 @@
       src="https://kit.fontawesome.com/4e07b18ecd.js"
       crossorigin="anonymous"
     ></script>
+    <script type="module" src="src/index.js"></script>
   </body>
 </html>
