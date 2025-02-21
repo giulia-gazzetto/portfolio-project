@@ -10,11 +10,11 @@ function translatePage() {
     }
   });
 
-  // Cambia il link del CV
-  //const cvLink = document.getElementById("cv-link");
-  //if (cvLink) {
-  //cvLink.href = lang === "it" ? "cv-italiano.pdf" : "cv-english.pdf";
-  //}
+  const cvLink = document.getElementById("cv-link");
+  if (cvLink) {
+    cvLink.href =
+      lang === "it" ? "/files/Giulia-CV-IT.pdf" : "/files/Giulia-CV-EN.pdf";
+  }
 }
 
 document.addEventListener("DOMContentLoaded", () => {
